@@ -15,6 +15,7 @@
 		00110DFE1D997B0100648C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00110DFC1D997B0100648C70 /* LaunchScreen.storyboard */; };
 		00110E091D997B0100648C70 /* weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00110E081D997B0100648C70 /* weiboTests.m */; };
 		00110E141D997B0100648C70 /* weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00110E131D997B0100648C70 /* weiboUITests.m */; };
+		00110E231D997C1600648C70 /* perpson.m in Sources */ = {isa = PBXBuildFile; fileRef = 00110E221D997C1600648C70 /* perpson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		00110E0F1D997B0100648C70 /* weiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00110E131D997B0100648C70 /* weiboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiboUITests.m; sourceTree = "<group>"; };
 		00110E151D997B0100648C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00110E211D997C1600648C70 /* perpson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = perpson.h; sourceTree = "<group>"; };
+		00110E221D997C1600648C70 /* perpson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = perpson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				00110DFC1D997B0100648C70 /* LaunchScreen.storyboard */,
 				00110DFF1D997B0100648C70 /* Info.plist */,
 				00110DEE1D997B0100648C70 /* Supporting Files */,
+				00110E211D997C1600648C70 /* perpson.h */,
+				00110E221D997C1600648C70 /* perpson.m */,
 			);
 			path = weibo;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				00110DF61D997B0100648C70 /* ViewController.m in Sources */,
 				00110DF31D997B0100648C70 /* AppDelegate.m in Sources */,
 				00110DF01D997B0100648C70 /* main.m in Sources */,
+				00110E231D997C1600648C70 /* perpson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
